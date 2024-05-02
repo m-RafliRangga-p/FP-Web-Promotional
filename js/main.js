@@ -1,10 +1,22 @@
-var map = L.map('map').setView([-7.7051, 110.6035], 15); // Ganti koordinat dengan lokasi Umbul Ponggok
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
+function handleAnimations() {
+    const sections = document.querySelectorAll('.section');
+    sections.forEach(section => {
+        if (isInViewport(section)) {
+            section.classList.add('animate');
+        } else {
+            section.classList.remove('animate');
+        }
+    });
+}
 
-    var marker = L.marker([-7.7051, 110.6035]).addTo(map) // Ganti koordinat dengan lokasi Umbul Ponggok
-        .bindPopup('Umbul Ponggok, Klaten.')
-        .openPopup();
+window.addEventListener('scroll', handleAnimations);
