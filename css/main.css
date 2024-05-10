@@ -369,6 +369,10 @@
     transition: .5s;
 }
 
+.team-item i{
+    font-size: 35px;
+}
+
 .team-item:hover img {
     transform: scale(1.1);
 }
