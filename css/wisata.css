@@ -301,7 +301,7 @@ footer .footer-top .container ul li a:hover{
 }
 
 #hero-gedhang h1{
-    text-shadow: 6px 4px 0px var(--dark), 9px 8px 0px rgba(255,255,255,0.15);
+    text-shadow: 4px 2px 0px var(--dark), 7px 6px 0px rgba(255,255,255,0.15);
     font-weight: 650;
 }
 
@@ -345,7 +345,7 @@ footer .footer-top .container ul li a:hover{
 }
 
 #hero-besuki h1{
-    text-shadow: 6px 4px 0px var(--dark), 9px 8px 0px rgba(255,255,255,0.15);
+    text-shadow: 4px 2px 0px var(--dark), 7px 6px 0px rgba(255,255,255,0.15);
     font-weight: 650;
 }
 
