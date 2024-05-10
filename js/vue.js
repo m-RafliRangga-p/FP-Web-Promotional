@@ -1,4 +1,3 @@
-// Vue.js Instance
 new Vue({
     el: '#app',
     data: {},

@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desa Ponggok</title>
+    <meta charset="utf-8">
+    <title>Website Umbul Ponggok</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400500;600&family=Nunito:wght@600;700;800&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.100/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/fontbootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css"rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"rel="stylesheet" />
-    <!-- AOS CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="./css/main.css" rel="stylesheet">
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-</head>
-<body>
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-<!-- TopBar -->
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="./css/main.css" rel="stylesheet">
+
+    <!-- AOS JS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+ 
+    <!-- Topbar -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
@@ -40,21 +49,21 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="">#</a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="">#</a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="">#</a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="">#</a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- NavBar & Hero -->
+    <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Desa Ponggok</h1>
+                <h1 class="text-primary m-0">Desa Ponggok</h1>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -64,110 +73,379 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="#" class="nav-item nav-link">Tentang Kami</a>
+                    <a href="#" class="nav-item nav-link">Visi Misi</a>
+                    <a href="#" class="nav-item nav-link">Kegiatan Terbaru</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Wisata</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Wisata dan Produk</a>
                         <div class="dropdown-menu m-0">
-                            <a href="#" class="dropdown-item">Umbul Ponggok</a>
-                            <a href="#" class="dropdown-item">Umbul Sigedhang</a>
-                            <a href="#" class="dropdown-item">Umbul Besuki</a>
+                            <div class="dropright">
+                                <a href="#" class="dropright" data-bs-toggle="dropdown" aria-haspopup="true">Destinasi Wisata</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Umbul Ponggok</a>
+                                    <a href="#" class="dropdown-item">Umbul Besuki</a>
+                                    <a href="#" class="dropdown-item">Umbul SiGedhang</a>
+                                </div>
+                            </div>
+                            <a href="#" class="dropdown-item">Produk Lokal</a>
+                        </div>
                     </div>
+                    <a href="#" class="nav-item nav-link">Tim Pengurus</a>
                 </div>
+                <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a>
             </div>
-        </nav>  
+        </nav>
+
         <div class="container-fluid bg-primary py-5 mb-5 hero-header">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
                         <h1 class="display-3 text-white mb-3 animated slideInDown">Selamat Datang di Desa Ponggok</h1>
-                        <p class="fs-4 text-white mb-4 animated slideInDown">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum  lorem sit</p>    
+                        <p class="fs-4 text-white mb-4 animated slideInDown">Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 
-    <!-- Tentang Desa Ponggok -->
+    <!-- Tentang Kami -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="150" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="./img/ponggok1.jpg" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">Tentang kami</h6>
-                    <h1 class="mb-4">Selamat datang di <span class="text-primary">Desa Ponggok</span></h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et   lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et   lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="250">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Tentang Kami</h6>
+                    <div class="animated-text">
+                        Selamat datang di <span></span>
+                    </div>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="" data-aos="fade-down" data-aos-delay="250">Read More</a>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 
-    <!-- Wisata di Desa Ponggok -->
-    <section class="container my-5">
-        <h2>Wisata di Desa Ponggok</h2>
-        <!-- Isi Wisata di Desa Ponggok -->
-        <div class="wisata-content">
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="wisata1.jpg" class="card-img-top" alt="Wisata 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Air Terjun Kedung Kayang</h5>
-                            <p class="card-text">Air terjun yang menawan di tengah alam Desa Ponggok.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="wisata2.jpg" class="card-img-top" alt="Wisata 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Kebun Bunga Dahlia</h5>
-                            <p class="card-text">Kebun bunga yang indah dengan berbagai macam varietas dahlia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="wisata3.jpg" class="card-img-top" alt="Wisata 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Taman Matahari</h5>
-                            <p class="card-text">Taman bunga matahari yang menakjubkan dengan panorama alam yang indah.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Visi Misi -->
+    <section id="visi-misi" class="mt-5 section-padding">
+        <div class="container">
+         <div class="row">
+             <div class="col-11 text-center" data-aos="fade-down" data-aos-delay="150">
+                 <div class="section-title">
+                     <h3 class="display-5 fw-bolder">Visi Misi</h3>
+                     <div class="x-line h-50"></div>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-md-5 img-fluid visi p-1" data-aos="fade-down" data-aos-delay="150">
+                 <h3 class="text-center fw-semi-bold">Visi</h3>
+                 <p class="p-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam blanditiis impedit vitae possimus consequatur quasi natus quia, vero omnis distinctio consequuntur, officiis reiciendis harum mollitia. Doloribus pariatur placeat exercitationem voluptatibus aliquam deserunt voluptate quidem ratione nostrum? Quasi ullam tenetur maxime, consectetur dolorum minus totam molestias magni, amet, id obcaecati asperiores est odit accusamus iusto architecto quibusdam? Libero, quasi fugit! Eaque, mollitia? Eaque, velit. Assumenda voluptates commodi cum, tenetur dolores tempora consequuntur, aspernatur mollitia quas optio dolor provident? Doloremque expedita non saepe officia, minima ad dicta iusto placeat aliquam alias soluta nam eius veritatis at reprehenderit maiores. Tempore neque earum nemo?</p>
+             </div>
+             <div class="col-md-1" data-aos="fade-down" data-aos-delay="250">
+                 <div class="y-line h-100"></div>
+             </div>
+             <div class="col-md-6" data-aos="fade-down" data-aos-delay="350">
+                 <h3 class="text-center fw-semi-bold">Misi</h3>
+                     <div class="d-flex pt-4 mb-3 align-items-center">
+                         <div class="iconbox me-4">
+                             <i class="ri-hashtag"></i>
+                         </div>
+                         <div>
+                             <p>Consectetur adipisicing elit. Quaerat amet repudiandae voluptatem?</p>
+                         </div>
+                     </div>
+                     <div class="d-flex mb-3 align-items-center">
+                         <div class="iconbox me-4">
+                             <i class="ri-hashtag"></i>
+                         </div>
+                         <div>
+                             <p>Consectetur adipisicing elit. Quaerat amet repudiandae voluptatem?</p>
+                         </div>
+                     </div>
+                     <div class="d-flex align-items-center">
+                         <div class="iconbox me-4">
+                             <i class="ri-hashtag"></i>
+                         </div>
+                         <div>
+                             <p>Consectetur adipisicing elit. Quaerat amet repudiandae voluptatem?</p>
+                         </div>
+                     </div>
+             </div>
+         </div>
         </div>
-    </section>  
+     </section>
 
-    <!-- Kegiatan Terbaru -->
-    <section class="container my-5 animated fadeInUp">
-        <h2>Kegiatan Terbaru di Desa Ponggok</h2>
-        <!-- Isi Kegiatan Terbaru -->
-        <div class="kegiatan-content">
-            <div class="card-deck">
-                <div class="card">
-                    <img src="kegiatan1.jpg" class="card-img-top" alt="Kegiatan 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Pembagian Sembako</h5>
-                        <p class="card-text">Pembagian sembako kepada warga yang membutuhkan.</p>
+
+    <!-- Kegiatan -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center" data-aos="fade-down" data-aos-delay="150">
+                <h6 class="section-title bg-white text-center text-primary px-3">Kegiatan</h6>
+                <h1 class="mb-5">Kegiatana Terbaru</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="150">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <!-- image dummy ya -->
+                            <img class="img-fluid" src="./img/ponggok2.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Umbul Ponggok</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i> 3 Januari 2023</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident voluptates eligendi expedita reprehenderit qui, inventore voluptatem esse quo possimus sit illum cumque quisquam laudantium nihil autem reiciendis, vitae sed. Enim.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 35px">Read More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="kegiatan2.jpg" class="card-img-top" alt="Kegiatan 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Gotong Royong</h5>
-                        <p class="card-text">Gotong royong membersihkan lingkungan desa.</p>
+                <div class="col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="250">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="./img/ponggok2.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Umbul e Yanto</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>4 May 2023</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus numquam vitae iure nisi illum libero. Illum eaque fugiat iste mollitia deserunt tempore hic, temporibus quos ex? Labore, sint. Necessitatibus provident inventore quo ipsum harum aperiam recusandae neque perspiciatis deleniti?</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 35px;">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-down" data-aos-delay="350">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="./img/ponggok2.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Umbul Anu</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Juni 2023</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis labore et sunt est neque incidunt exercitationem alias praesentium molestiae? Nesciunt laboriosam cum dolorem officia mollitia quibusdam dolores facilis nisi dignissimos.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 35px">Read More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>  
-    
-    <!-- FOOTER -->
+    </div>
+
+    <!-- Destinasi -->
+    <div class="container-xxl py-5 destination">
+        <div class="container">
+            <div class="text-center" data-aos="fade-down" data-aos-delay="150">
+                <h6 class="section-title bg-white text-center text-primary px-3">Destinasi</h6>
+                <h1 class="mb-5">Destinasi Populer</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s" data-aos="zoomIn" data-aos-delay="150">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="./img/ponggok5.jpeg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul Anu</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 20px;">Read More</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s" data-aos="zoomIn" data-aos-delay="250">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="./img/ponggok5.jpeg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul e Yanto</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 20px;">Read More</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s" data-aos="zoomIn" data-aos-delay="350">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="./img/ponggok6.jpeg" alt="">
+                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul Anu</div>
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 20px;">Read More</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" data-aos="zoomIn" data-aos-delay="450" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="./img/ponggok3.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Umbul Ponggok</div>
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2" style="border-radius: 20px;">Read More</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Produk -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center pb-4" data-aos="fade-down" data-aos-delay="150">
+                <h6 class="section-title bg-white text-center text-primary px-3">Produk</h6>
+                <h1 class="mb-5">Produk Kami</h1>
+            </div>
+            <div class="row gy-5 gx-4 justify-content-center">
+                <div class="col-lg-4 col-sm-6 text-center pt-4" data-aos="fade-down" data-aos-delay="250">
+                    <div class="position-relative border border-primary pt-4 pb-4 px-4">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="./img/ponggok2.jpg" alt="">
+                        </div>
+                        <h5 class="mt-4">Bakpia</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4" data-aos="fade-down" data-aos-delay="350">
+                    <div class="position-relative border border-primary pt-4 pb-4 px-4">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="./img/ponggok2.jpg" alt="">
+                        </div>
+                        <h5 class="mt-4">Bakpia</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4" data-aos="fade-down" data-aos-delay="450">
+                    <div class="position-relative border border-primary pt-4 pb-4 px-4">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="./img/ponggok2.jpg" alt="">
+                        </div>
+                        <h5 class="mt-4">Bakpia</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tim Pengurus -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Tim Pengurus</h6>
+                <h1 class="mb-5">Berjumpalah dengan Tim Kami</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Jeneng Lengkap</h5>
+                            <small>Jabatan</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Jeneng Lengkap</h5>
+                            <small>Jabatan</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Jeneng lengkap</h5>
+                            <small>jabatan</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Jeneng Lengkap</h5>
+                            <small>Jabatan</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testi Pengunjung (Carousels) -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Apa Kata Mereka?</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Yanto</h5>
+                    <p>Solo, indonesia</p>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Yaanti</h5>
+                    <p>Klaten, inggris</p>
+                    <p class="mt-2 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Samini</h5>
+                    <p>Sragen, amerika</p>
+                    <p class="mt-2 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Yuwi</h5>
+                    <p>Karanganyar, belanda</p>
+                    <p class="mt-2 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+            </div>
+        </div>
+    </div>      
+
+    <!-- Footer-->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -178,10 +456,10 @@
                     <a class="btn btn-link" href="#">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>alamat</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>notelf</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>email</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href="">#</a>
                         <a class="btn btn-outline-light btn-social" href="">#</a>
@@ -193,22 +471,22 @@
                     <h4 class="text-white mb-3">Gallery</h4>
                     <div class="row g-2 pt-2">
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="#" alt="">
+                            <img class="img-fluid bg-light p-1" src="./img/ponggok2.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="#" alt="">
+                            <img class="img-fluid bg-light p-1" src="./img/ponggok3.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="#" alt="">
+                            <img class="img-fluid bg-light p-1" src="./img/ponggok2.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="#" alt="">
+                            <img class="img-fluid bg-light p-1" src="./img/ponggok4.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="#" alt="">
+                            <img class="img-fluid bg-light p-1" src="./img/ponggok5.jpeg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="#" alt="">
+                            <img class="img-fluid bg-light p-1" src="./img/ponggok4.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -217,7 +495,7 @@
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Masukan Email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Kirim</button>
                     </div>
                 </div>
             </div>
@@ -226,10 +504,10 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">bumdesponggok.com</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">www.bumdesponggok.com</a>, All Right Reserved.
 
                     
-                        Designed By <a class="border-bottom" href="#">Mahasiswa AMIKOM</a>
+                        Designed By <a class="border-bottom" href="#">Mahasiswa ne Yanto Sableng</a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
@@ -243,28 +521,31 @@
             </div>
         </div>
     </div>
+    <!-- Footer End -->
 
 
-<!-- Vue.js -->
-<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-<!-- AOS JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<!-- Bootstrap JavaScript -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/jsbootstrap.bundle.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/tempusdominus/js/moment.min.js"></script>
-<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"><script>
-<!-- Custom JavaScript -->
-<script src="./js/dponggok.js"></script>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="./js/main.js"></script>
+
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="./js/aos_wisata.js"></script>
 </body>
+
 </html>
