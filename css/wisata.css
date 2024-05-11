@@ -100,6 +100,10 @@ a:hover{
     color: var(--primary);
 }
 
+.navbar-brand img{
+    max-height: 65px;
+}
+
 /* BUTTON */
 .btn{
     font-weight: 600;
@@ -380,16 +384,14 @@ footer .footer-top .container ul li a:hover{
     border-color: var(--primary);
 }
 
-/* @media (max-width:1024px){
-    #map{
-        width: 45vh;
-        height: 55vh;
+@media (max-width:728px){
+    .navbar-brand img{
+        max-height: 45px;
     }
 }
 
 @media (max-width:500px){
-    #map{
-        width: 40vh;
-        height: 50vh;
+    .navbar-brand img{
+        max-height: 40px;
     }
-} */
+}
