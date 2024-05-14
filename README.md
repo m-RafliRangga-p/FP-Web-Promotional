@@ -1,6 +1,6 @@
 ## Our Team (NekoDev) :
 - Nanda Pratama / 22.11.4623  (alexsyubarjo)
-- Muhammad Rafli Rangga Pratama / 22.11.4668 (m-RafliRangga)
+- Muhammad Rafli Rangga Pratama / 22.11.4668 (m-RafliRangga-p)
 - Devananda Fikri Muhammad Rafi / 22.11.4669 (zendevs404)
 - Yuli Dwi Kurniawan / 22.11.4675 (YuwiAwan)
 
