@@ -3,6 +3,7 @@
     --secondary: #C65BCF;
     --light: #F5F5F5;
     --dark: #14141F;
+    --primary-green: #86B817;
 }
 
 .fw-medium {
@@ -536,4 +537,77 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+/* LOGIN */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#login .container{
+    margin: auto;
+    width: 80%;
+}
+
+.frm-btn{
+    margin: 20px auto 0;
+}
+
+.form-control {
+    padding: 0.75rem; /* Increase padding for larger input fields */
+    font-size: 1rem; /* Increase font size */
+    height: auto; /* Allow height to adjust based on padding */
+    border-radius: 15px;
+}
+
+.txt-green{
+    color: var(--primary-green);
+}
+
+.btn-login{
+    background-color: var(--primary-green);
+    color: var(--light);
+    border-radius: 10px;
+    padding: 0.35rem 1.5rem; /* Increase padding for button */
+    font-size: 1.25rem; /* Increase font size for button */
+}
+
+.btn-login:hover{
+    color: var(--primary-green);
+    background-color: var(--dark);
+}
+
+.login-fot{
+    box-shadow: 10px 10px 5px rgba(100,100,100,.3);
+    border: 1px solid var(--dark);
+    height: 60%;
+}
+
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-wrapper .form-control {
+    padding-right: 3rem; /* Add space for the eye icon */
+}
+
+.password-wrapper .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 1.45rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+    .dot-img{
+        display: none;
+    }
+    .login-fot{
+        border: none;
+        box-shadow: none;
+    }
 }
