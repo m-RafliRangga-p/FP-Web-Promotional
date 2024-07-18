@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## NekoDev
+
+1. Nanda Pratama 22.11.4623 (alexsyubarjo)
+2. Muhammad Rafli Rangga Pratama 22.11.4668 (m-RafliRangga-p)
+3. Devananda Fikri Muhammad Rafi 22.11.4669 (zendevs404)
+4. Yuli Dwi Kurniawan 22.11.4675 (YuwiAwan)
+
+## Link Figma
+https://www.figma.com/design/dhzjYxwbZ8gq3KpWKowoGd/BUMDES-TIRTA-MANDIRI?node-id=0-1&t=TsZjs8H36PF07x6i-0
+
+## Back End
+https://github.com/zendevs404/theponggok-profile
+
+## This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
