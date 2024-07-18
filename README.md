@@ -2,6 +2,9 @@
 Ketika setelah melakukan Login/Register dan muncul error maka ubah tautan yang sebelumnya\
 https://theponggok.my.id/redirect menjadi https://theponggok.my.id/ agar halaman menjadi tidak error
 
+NEXT JS TIDAK LAGI DIGUNAKAN\
+Awal nya memang diniatkan untuk menggunakan next js, tetapi karena projectnya tidak next-next maka kami putuskan beralih ke laravel🙏
+
 ## Reason :
 Mohon maaf pak🙏, untuk error yang itu kami segenap tim sudah berusaha sekuat tenaga, jiwa, dan raga serta seluruh pikiran kami pak tetapi hasilnya masih saja error pak\
 Sekali lagi maaf pak masih ada error di website kami🙏
